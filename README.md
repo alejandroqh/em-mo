@@ -1,4 +1,4 @@
-# em-mo
+# em-mo (🤑 save tokens)
 
 Save output tokens using a visual language mode for Claude Code. Emoji + short text for faster scanning and fewer output tokens.
 
