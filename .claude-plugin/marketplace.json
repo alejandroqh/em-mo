@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "emoji-mode",
+  "description": "Visual language mode. Emoji + short text for faster scanning and fewer output tokens. Three personalities: friendly, professional (default), nightmare.",
+  "owner": {
+    "name": "aquintanar",
+    "url": "https://github.com/aquintanar"
+  },
+  "plugins": [
+    {
+      "name": "emoji-mode",
+      "description": "Visual language mode. Emoji + short text for faster scanning and fewer output tokens.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

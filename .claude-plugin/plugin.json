@@ -1,0 +1,34 @@
+{
+  "name": "emoji-mode",
+  "description": "Visual language mode. Emoji + short text for faster scanning and fewer output tokens. Three personalities: friendly, professional (default), nightmare.",
+  "author": {
+    "name": "aquintanar",
+    "url": "https://github.com/aquintanar"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/emoji-activate.js",
+            "timeout": 5,
+            "statusMessage": "Loading emoji-mode..."
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/emoji-mode-tracker.js",
+            "timeout": 5,
+            "statusMessage": "Tracking emoji-mode..."
+          }
+        ]
+      }
+    ]
+  }
+}
