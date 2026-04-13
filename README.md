@@ -8,7 +8,8 @@ Inspired by [caveman](https://github.com/JuliusBrussee/caveman) where caveman cu
 
 ### Claude Code plugin
 ```bash
-claude plugin marketplace add alejandroqh/em-mo && claude plugin install emoji-mode@emoji-mode
+claude plugin marketplace add alejandroqh/em-mo \
+  && claude plugin install emoji-mode@emoji-mode
 ```
 
 ## How it works
@@ -38,29 +39,11 @@ em-mo:
 
 ## Personalities
 
-Same structure, different vibe. Switch with `/emoji-mode friendly|professional|nightmare`.
-
-**professional** (default) — clean, neutral:
-```
-❌ 🗄️ pool exhausted ➡️ ⏳ timeouts
-- 🔧 pool size
-📌 ➡️ 🔍 monitor
-```
-
-**friendly** — warm, encouraging:
-```
-❌ 🗄️ pool empty 😰
-- ⏳ timeouts 💔
-- 🔧 pool size ➡️ ☑️ 💪
-```
-
-**nightmare** — horror, creepy:
-```
-❌ 🗄️ pool drained 💀
-- ⏳ timeouts spreading 🕷️
-- 🔧 feed pool ➡️ 🩸 or dies
-📌 👁️ watch closely
-```
+| Personality | Trigger | Vibe | Sample |
+|-------------|---------|------|--------|
+| **professional** | `/emoji-mode professional` | Clean, neutral | ☑️ 🧪 passing ➡️ 🚀 deploy |
+| **friendly** | `/emoji-mode friendly` | Warm, encouraging | ☑️ 🧪 passing 🎉 🚀 ship! 💪 |
+| **nightmare** | `/emoji-mode nightmare` | Horror, creepy | ☑️ 🧪 passing 👁️ 🚀 (for now) 🪦 |
 
 ## Usage
 
