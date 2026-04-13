@@ -8,8 +8,13 @@ Inspired by [caveman](https://github.com/JuliusBrussee/caveman) where caveman cu
 
 ### Claude Code plugin
 ```bash
-claude plugin marketplace add alejandroqh/em-mo \
-  && claude plugin install emoji-mode@emoji-mode
+claude plugin marketplace add alejandroqh/em-mo
+claude plugin install emoji-mode@emoji-mode
+```
+
+### Other Agents
+```
+npx skills add alejandroqh/em-mo
 ```
 
 ## How it works
