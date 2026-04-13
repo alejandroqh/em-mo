@@ -58,19 +58,6 @@ Switch personality: `/emoji-mode friendly|professional|nightmare`
 
 Deactivate: "stop emoji" or "normal mode"
 
-## em-mo vs caveman
-
-| | caveman | em-mo |
-|---|---------|------|
-| **Method** | Terse text, drop articles/filler | Emoji chunks + minimal text |
-| **Core unit** | Short sentence fragments | Emoji + short text chunks |
-| **Modes** | Compression tiers (lite/full/ultra) | Personalities (friendly/professional/nightmare) |
-| **Token savings** | ~75% | ~71% |
-| **Readability** | Scan text | Scan icons |
-
-Both can coexist. Caveman compresses text. em-mo replaces text with visual anchors.
-
-
 ### Standalone
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/alejandroqh/em-mo/main/hooks/install.sh)
