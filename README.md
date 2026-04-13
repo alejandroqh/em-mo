@@ -1,8 +1,25 @@
 # em-mo
 
-Save output toknes usin a visual language mode for Claude Code. Emoji + short text for faster scanning and fewer output tokens.
+Save output tokens using a visual language mode for Claude Code. Emoji + short text for faster scanning and fewer output tokens.
 
 Inspired by [caveman](https://github.com/JuliusBrussee/caveman) — where caveman cuts fluff with terse text, em-mo cuts it with emoji-anchored chunks.
+
+## Install
+
+### Claude Code plugin
+```bash
+claude plugin marketplace add alejandroqh/em-mo
+```
+
+### Standalone
+```bash
+bash <(curl -s https://raw.githubusercontent.com/alejandroqh/em-mo/main/hooks/install.sh)
+```
+
+### Uninstall
+```bash
+bash <(curl -s https://raw.githubusercontent.com/alejandroqh/em-mo/main/hooks/uninstall.sh)
+```
 
 ## How it works
 
@@ -53,23 +70,6 @@ Same structure, different vibe. Switch with `/emoji-mode friendly|professional|n
 - ⏳ timeouts spreading 🕷️
 - 🔧 feed pool ➡️ 🩸 or dies
 📌 👁️ watch closely
-```
-
-## Install
-
-### Claude Code plugin
-```bash
-claude plugin marketplace add alejandroqh/em-mo
-```
-
-### Standalone
-```bash
-bash <(curl -s https://raw.githubusercontent.com/alejandroqh/em-mo/main/hooks/install.sh)
-```
-
-### Uninstall
-```bash
-bash <(curl -s https://raw.githubusercontent.com/alejandroqh/em-mo/main/hooks/uninstall.sh)
 ```
 
 ## Usage
