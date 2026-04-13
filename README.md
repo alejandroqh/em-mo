@@ -6,8 +6,6 @@ Inspired by [caveman](https://github.com/JuliusBrussee/caveman) — where cavema
 
 ## How it works
 
-Core unit = **chunk**: 1-3 emoji + 1-2 words. Chain chunks to build meaning.
-
 ```
 Normal Claude:
   I found a bug in the auth middleware. The token expiry check is using
@@ -57,31 +55,6 @@ Same structure, different vibe. Switch with `/emoji-mode friendly|professional|n
 📌 👁️ watch closely
 ```
 
-## Visual grammar
-
-```
-CHUNK:      [1-3 emoji] [1-2 words]
-LINE:       chunk. chunk. chunk.
-RESPONSE:   header chunk + body chunks + summary chunk
-
-PREFIXES:   ❓ 📌 💡 ⚠️ ❌ ☑️ 🔧
-CONCEPTS:   📂 🗄️ 🔌 🔑 ⚙️ 📦 🧪 🏗️ 🚀 🔍
-CONNECTORS: ➡️ ↩️
-
-MAX 3 emoji/chunk. MAX 2 words/chunk.
-Never echo what emoji says. Never full sentences.
-```
-
-Key rule: if the emoji already conveys the verb, drop the text echo.
-
-```
-BAD:  🔍 Search for the config
-GOOD: 🔍 config location
-
-BAD:  ⏳ Wait until source code
-GOOD: ⏳ source code first
-```
-
 ## Install
 
 ### Claude Code plugin
@@ -112,12 +85,12 @@ Deactivate: "stop emoji" or "normal mode"
 | | caveman | em-mo |
 |---|---------|------|
 | **Method** | Terse text, drop articles/filler | Emoji chunks + minimal text |
-| **Core unit** | Short sentence fragments | 1-3 emoji + 1-2 words |
+| **Core unit** | Short sentence fragments | Emoji + short text chunks |
 | **Modes** | Compression tiers (lite/full/ultra) | Personalities (friendly/professional/nightmare) |
 | **Token savings** | ~75% | ~71% |
 | **Readability** | Scan text | Scan icons |
 
-Both can coexist. Caveman compresses text. Emmo replaces text with visual anchors.
+Both can coexist. Caveman compresses text. em-mo replaces text with visual anchors.
 
 ## License
 
