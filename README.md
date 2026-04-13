@@ -11,16 +11,6 @@ Inspired by [caveman](https://github.com/JuliusBrussee/caveman) — where cavema
 claude plugin marketplace add alejandroqh/em-mo
 ```
 
-### Standalone
-```bash
-bash <(curl -s https://raw.githubusercontent.com/alejandroqh/em-mo/main/hooks/install.sh)
-```
-
-### Uninstall
-```bash
-bash <(curl -s https://raw.githubusercontent.com/alejandroqh/em-mo/main/hooks/uninstall.sh)
-```
-
 ## How it works
 
 ```
@@ -91,6 +81,17 @@ Deactivate: "stop emoji" or "normal mode"
 | **Readability** | Scan text | Scan icons |
 
 Both can coexist. Caveman compresses text. em-mo replaces text with visual anchors.
+
+
+### Standalone
+```bash
+bash <(curl -s https://raw.githubusercontent.com/alejandroqh/em-mo/main/hooks/install.sh)
+```
+
+### Uninstall
+```bash
+bash <(curl -s https://raw.githubusercontent.com/alejandroqh/em-mo/main/hooks/uninstall.sh)
+```
 
 ## License
 
