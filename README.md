@@ -2,7 +2,7 @@
 
 Save output tokens using a visual language mode for Claude Code. Emoji + short text for faster scanning and fewer output tokens.
 
-Inspired by [caveman](https://github.com/JuliusBrussee/caveman) — where caveman cuts fluff with terse text, em-mo cuts it with emoji-anchored chunks.
+Inspired by [caveman](https://github.com/JuliusBrussee/caveman) where caveman cuts fluff with terse text, em-mo cuts it with emoji-anchored chunks.
 
 ## Install
 
