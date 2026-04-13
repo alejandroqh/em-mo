@@ -85,7 +85,7 @@ GOOD: ⚠️ repo empty. 📂 .claude/ only
 
 **Header** — 1 chunk classifying user intent:
 ```
-❓ what is emmo?
+❓ what is em-mo?
 ```
 
 **Body** — list of chunks:

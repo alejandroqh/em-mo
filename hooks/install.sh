@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_URL="https://raw.githubusercontent.com/aquintanar/emmo/main"
+REPO_URL="https://raw.githubusercontent.com/alejandroqh/em-mo/main"
 CLAUDE_DIR="${HOME}/.claude"
 HOOKS_DIR="${CLAUDE_DIR}/hooks"
 SKILLS_DIR="${CLAUDE_DIR}/skills/emoji-mode"

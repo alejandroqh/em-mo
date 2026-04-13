@@ -1,8 +1,8 @@
-# emmo
+# em-mo
 
 Visual language mode for Claude Code. Emoji + short text for faster scanning and fewer output tokens.
 
-Inspired by [caveman](https://github.com/JuliusBrussee/caveman) — where caveman cuts fluff with terse text, emmo cuts it with emoji-anchored chunks.
+Inspired by [caveman](https://github.com/JuliusBrussee/caveman) — where caveman cuts fluff with terse text, em-mo cuts it with emoji-anchored chunks.
 
 ## How it works
 
@@ -15,7 +15,7 @@ Normal Claude:
   one second before they actually expire. You should change the comparison
   operator on line 42 from `<` to `<=` to fix this issue.
 
-emmo:
+em-mo:
   ❌ 🔑 middleware
   - 🔍 expiry: `<` ➡️ `<=`
   - 🔧 L42
@@ -23,7 +23,7 @@ emmo:
 
 ## Token savings
 
-| Scenario | Normal | emmo | Reduction |
+| Scenario | Normal | em-mo | Reduction |
 |----------|--------|------|-----------|
 | Bug in auth middleware | 49 words | 12 words | **76%** |
 | Tests passing, deploy | 23 words | 7 words | **70%** |
@@ -86,17 +86,17 @@ GOOD: ⏳ source code first
 
 ### Claude Code plugin
 ```bash
-claude plugin marketplace add aquintanar/emmo
+claude plugin marketplace add alejandroqh/em-mo
 ```
 
 ### Standalone
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/aquintanar/emmo/main/hooks/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/alejandroqh/em-mo/main/hooks/install.sh)
 ```
 
 ### Uninstall
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/aquintanar/emmo/main/hooks/uninstall.sh)
+bash <(curl -s https://raw.githubusercontent.com/alejandroqh/em-mo/main/hooks/uninstall.sh)
 ```
 
 ## Usage
@@ -107,9 +107,9 @@ Switch personality: `/emoji-mode friendly|professional|nightmare`
 
 Deactivate: "stop emoji" or "normal mode"
 
-## emmo vs caveman
+## em-mo vs caveman
 
-| | caveman | emmo |
+| | caveman | em-mo |
 |---|---------|------|
 | **Method** | Terse text, drop articles/filler | Emoji chunks + minimal text |
 | **Core unit** | Short sentence fragments | 1-3 emoji + 1-2 words |
